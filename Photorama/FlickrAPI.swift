@@ -19,6 +19,16 @@ struct FlickrAPI {
     private static let baseURLString = "https://api.flickr.com/services/rest"
     private static let apiKey = "a6d819499131071f158fd740860a5a88"
     
+    private static let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        return formatter
+    }()
+    
+    static var interestingPhotosURL: URL{
+        return flickrURL(method: .interestingPhotos, parameters: ["extras": "url_h,date_taken"])
+    }
+    
     private static func flickrURL(method:Method, parameters: [String:String]?) -> URL{
         
         var components = URLComponents(string: baseURLString)!
@@ -42,10 +52,6 @@ struct FlickrAPI {
         components.queryItems = queryItems
         return components.url!
         //return URL(string: "")!
-    }
-    
-    static var interestingPhotosURL: URL{
-        return flickrURL(method: .interestingPhotos, parameters: ["extras": "url_h,date_taken"])
     }
     
 }
