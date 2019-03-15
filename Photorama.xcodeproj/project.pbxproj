@@ -15,6 +15,7 @@
 		C0153683223B132E00429CDC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0153682223B132E00429CDC /* PhotosViewController.swift */; };
 		C0153685223B143A00429CDC /* PhotoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0153669223B124700429CDC /* PhotoramaTests.swift */; };
 		C0153687223B18C100429CDC /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0153686223B18C100429CDC /* FlickrAPI.swift */; };
+		C0153689223B222800429CDC /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0153688223B222800429CDC /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C0153676223B124700429CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0153682223B132E00429CDC /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		C0153686223B18C100429CDC /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		C0153688223B222800429CDC /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C0153658223B124500429CDC /* Main.storyboard */,
 				C0153682223B132E00429CDC /* PhotosViewController.swift */,
 				C0153686223B18C100429CDC /* FlickrAPI.swift */,
+				C0153688223B222800429CDC /* PhotoStore.swift */,
 				C015365B223B124700429CDC /* Assets.xcassets */,
 				C015365D223B124700429CDC /* LaunchScreen.storyboard */,
 				C0153660223B124700429CDC /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				C0153687223B18C100429CDC /* FlickrAPI.swift in Sources */,
 				C0153683223B132E00429CDC /* PhotosViewController.swift in Sources */,
+				C0153689223B222800429CDC /* PhotoStore.swift in Sources */,
 				C0153655223B124500429CDC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
