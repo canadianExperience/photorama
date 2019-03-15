@@ -18,4 +18,13 @@ class Photo {
             self.remoteURL = remoteURL
             self.dateTaken = dateTaken
         }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
